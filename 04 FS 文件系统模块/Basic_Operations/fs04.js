@@ -12,6 +12,7 @@ var fs = require('fs');
 //       * flag (String) 默认值 ‘w’
 // callback {function} 回调，传递一个异常参数err
 
+
 fs.appendFile('./t1.txt','\n这是第二次写入的内容！',function(err){
      if(err){
         console.log(err);

@@ -9,5 +9,7 @@ fs.readdir('./html',function(err,data){
         console.log(err);
         return false;
     }
+
+    
     console.log(data);
 })

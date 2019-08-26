@@ -13,6 +13,7 @@ var fs = require('fs');
 // callback {function} 回调，传递一个异常参数err
 
 
+
 // fs.writeFile这个方法在即将写入的文件不存在时会创建文件
 // 如果向存在的文件写入，新写入的内容将之前的全覆盖掉
 

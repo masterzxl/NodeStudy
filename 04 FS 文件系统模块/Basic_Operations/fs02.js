@@ -9,6 +9,7 @@ fs.mkdir('css',function (err) {
     if(err){
         console.log(err);
         return false;
+        
     }
     console.log('创建目录成功！');
     

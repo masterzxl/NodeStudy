@@ -8,6 +8,7 @@ fs.readFile('./index.txt',function(err,data){
         console.log(err);
         return false;
     }
+    
 
     // 输出的为16进制
     console.log('16进制形式：')

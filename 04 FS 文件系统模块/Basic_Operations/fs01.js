@@ -11,6 +11,7 @@
  *  9、 fs.unlink 删除文件
  */
 
+
 var fs = require('fs');
 
 // 1、 fs.stat 检测是文件还是目录 第一个参数是路径 第二个参数是回调函数 

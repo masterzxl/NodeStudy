@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>index.ejs</title>
+    </head>
+
+    <body>
+        <h2>这是一个EJS的后台模板引擎！ -- 登录</h2>
+        <h2><%=msg%></h2>
+
+        <ul>
+            <%for(var i=0;i<list.length;i++){%>
+                <li><%=list[i]%></li>
+            <%}%>
+        </ul>
+    </body>
+</html>

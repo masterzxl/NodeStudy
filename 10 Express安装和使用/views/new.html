@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>new</title>
+    </head>
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+        <%- include public/header.html %>
+        <h2>这是新闻！--new.html</h2>
+        <ul>
+            <% for(var i=0;i<list.length;i++){ %>
+                <li><%= list[i] %></li>
+            <% } %>
+        </ul>
+    </body>
+</html>
